@@ -1,12 +1,27 @@
-# Dapps-frontend
+# SaveBox ATM Interface
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+## Overview
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+SaveBox is a web application designed to interact with a blockchain-based ATM smart contract. This application allows users to connect their MetaMask wallet, deposit Ether into the ATM, and withdraw Ether from it. It's built using React(next) and utilizes ethers.js for blockchain interactions.
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+## Features
+
+- Connect to MetaMask wallet.
+- Display the connected account's Ethereum balance.
+- Deposit Ether to the ATM.
+- Withdraw Ether from the ATM.
+
+## Prerequisites
+
+- Node.js
+- npm or yarn
+- MetaMask Extension installed on your browser
+
+## Installation
+
+To get started with SaveBox, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository/savebox.git
+   cd savebox
